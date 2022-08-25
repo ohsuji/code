@@ -105,6 +105,7 @@
   #pick .inner .pick-art span{
     font-size: 14px;
     top: 52%;
+    margin-left: 20px;
   }
   #pick .inner SPAN{
    font-size: 14px; 
@@ -120,27 +121,32 @@
   width: 360px;
   height: 400px;
   overflow: hidden;
-  padding: 293px 20px 0;
+  padding-top: 286px;
   }
   #pick .inner .pick-art::before{
     width: 330px;
     height: 300px;
     top: 5%;
-    left: 9%;
+    left: 4%;
   }
   #pick .inner .pick-art dl{
-    width: 3/0px;
+  width: 360px;
   }
-  #pick .inner .pick-art dd {
+  #pick .inner .pick-art dl dd {
     overflow: hidden;
-    font-size: 14px;
-    width: 100%;
+    font-size: 13px;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-left: 20px;
+    width: 320px;
   }
   #pick .inner .pick-art dl dt {
     font-size: 22px;
-    width: 360px;
+    width: 320px;
+    margin-left: 20px;
+  }
+  #pick .inner .btn button {
+    margin-left: 20px;
   }
   /*  뉴  */
   #new .inner{
@@ -158,14 +164,14 @@
   }
   #new .inner .new-art .newart-sec{
     height: 600px;
-    width: 348px;
+    width: 300px;
   }
   #new .inner .new-art .newart-sec::before{
-    width: 348px;
+    width: 300px;
     height: 400px;
   }
   #new .inner .new-art .newart-info{
-    width: 348px;
+    width: 300px;
   }
   /*  갤러리  */
   #gallery {
@@ -183,7 +189,7 @@
   }
   #gallery .inner span{
     font-size: 14px;
-    width: 80%;
+    width: 75%;
     text-align: center;
     margin: 0 auto;
   }
@@ -210,6 +216,9 @@
   #review .inner .review-info article{
     padding: 20px 0;
     width: 300px;
+  }
+  #review .inner .review-info article p{
+    font-size: 14px;
   }
   /*  footer  */
   #footer {
