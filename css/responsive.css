@@ -1,0 +1,229 @@
+@media screen and (max-width:1920px) {
+   
+}
+@media screen and (max-width:1200px) {
+   header .inner {
+     height: 70px;
+    font-size: 0;
+  }
+  #best .inner p::after{
+    display: none;
+  }
+  #best .inner p::before{
+    display: none;    
+  }
+  #pick .inner .h2::after {
+    display: none;
+  }
+  #pick .inner .h2::before{
+    display: none;    
+  }
+  #new .inner p::after {
+    display: none;    
+  }
+  #new .inner p::before {
+    display: none;    
+  }
+  #review .inner .h2::after {
+    display: none;
+  }
+  #review .inner .h2::before {
+    display: none;
+  }
+}
+@media screen and (max-width:768px) {
+  header .inner {
+    height: 70px;
+    font-size: 0;
+  }
+  /*  타이틀  */
+  #title .inner {
+  }
+
+  #title .inner p {
+    font-size: 32px;
+    margin-left: 20px;
+  }
+  #title .inner .titlep {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  #title .inner .pagination {
+    width: 50.0625vw;
+    height: 10vw;
+    text-align: center;
+  }
+  #title .inner .pagination .slid {
+    left: 0;
+  }
+  #title .inner .pagination .slid:nth-child(1){
+    height: 20px;
+    padding-right: 0;
+  }
+  #title .inner .pagination .slid:nth-child(2){
+    height: 20px;
+  }
+  #title .inner .pagination .slid:nth-child(3){
+    height: 20px;
+  }
+  /*  메인  */
+  #best .inner{
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #best .inner span{
+    font-size: 14px;
+  }
+  #best .inner p{
+    font-size: 32px;
+  }
+  #best .inner .sct-img{
+    margin-top: 80px; 
+  }
+  #best .inner .sct-img article {
+    
+  }
+  #best .inner .sct-img article img{
+    height: 90vw;
+    width: 70vw;
+  }
+  #best .inner .sct-img article .sct-img-wrap { 
+    height: 83%;
+  }
+  #best .inner .sct-img article h3 a{
+    font-size: 20px;
+  }
+  /* 사이드 화살표  */
+  #quick span {
+    right: 5%;
+  }
+  /* 픽 */
+  #pick .inner{
+    padding: 100px 0;
+  }
+  #pick .inner .pick-art span{
+    font-size: 14px;
+    top: 52%;
+  }
+  #pick .inner SPAN{
+   font-size: 14px; 
+  }
+  #pick .inner .h2{
+  font-size: 32px;
+  }
+  #pick .inner ul li a {
+    font-size: 14px;
+  }
+  #pick .inner .pick-art {
+  padding: 0;
+  width: 360px;
+  height: 400px;
+  overflow: hidden;
+  padding: 293px 20px 0;
+  }
+  #pick .inner .pick-art::before{
+    width: 330px;
+    height: 300px;
+    top: 5%;
+    left: 9%;
+  }
+  #pick .inner .pick-art dl{
+    width: 3/0px;
+  }
+  #pick .inner .pick-art dd {
+    overflow: hidden;
+    font-size: 14px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  #pick .inner .pick-art dl dt {
+    font-size: 22px;
+    width: 360px;
+  }
+  /*  뉴  */
+  #new .inner{
+    padding: 100px 0;
+    overflow: hidden;
+  }
+  #new .inner .new-text{
+    font-size: 14px;
+  }
+  #new .inner p {
+   font-size: 32px;
+  }
+  #new .inner .new-art {
+    overflow: hidden;
+  }
+  #new .inner .new-art .newart-sec{
+    height: 600px;
+    width: 348px;
+  }
+  #new .inner .new-art .newart-sec::before{
+    width: 348px;
+    height: 400px;
+  }
+  #new .inner .new-art .newart-info{
+    width: 348px;
+  }
+  /*  갤러리  */
+  #gallery {
+    background-attachment: initial;
+    padding: 100px 0;
+  } 
+  #gallery .inner p{
+    font-size: 26px;
+    width: 50%;
+    line-height: 30px;
+    margin: 0 auto;
+  }
+  #gallery .inner{
+    padding: 60px 0;
+  }
+  #gallery .inner span{
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  /*  리뷰  */
+  #review .inner{
+     padding: 100px 0;
+     overflow: hidden;
+  }
+  #review .inner .review-info article::before{
+    width: 300px;
+    height: 300px;
+  }
+  #review .inner .review-info article .date{
+    
+  top: 15px;
+  }
+  #review .inner .review-text{
+    font-size: 14px;
+  }
+  #review .inner .h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+  #review .inner .review-info article{
+    padding: 20px 0;
+    width: 300px;
+  }
+  /*  footer  */
+  #footer {
+    padding: 20px 0;
+  }
+  #footer .inner{
+    width: 85%;
+    font-size: 11px;
+  }
+  #footer .inner address.p span:nth-child(5){
+    display: block;
+  }
+  #footer .inner .copyright {
+    font-size: 12px;
+  } 
+} 
+  

@@ -1,0 +1,64 @@
+#footer {
+  background-color: #272727;
+  color: #888;
+  padding: 60px 0;
+}
+#footer .inner {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 4.5;
+  width: 75%;
+}
+#footer .inner ul.footer-info {
+  display: flex;
+  gap: 20px;
+}
+#footer .inner ul.footer-info li {
+
+}
+#footer .inner ul.footer-info li a {
+  color: #888;
+}
+#footer .inner ul.footer-info li a:hover{
+  color: #fff;
+}
+#footer .inner address.p {
+  line-height: 2.5;
+}
+#footer .inner address.p span {
+
+  font-family: none;
+}
+#footer .inner address.p span::before {
+  content: "";
+  height: 10px;
+  color: #888;
+  display: inline-block;
+  gap: 30px;
+}
+#footer .inner address.p span:nth-child(2)::before {
+  border-left: 1px solid;
+  padding-left: 14px;
+  margin-left: 10px;
+}
+#footer .inner address.p span:nth-child(5)::before {
+  border-left: 1px solid;
+  padding-left: 14px;
+  margin-left: 10px;
+}
+#footer .inner address.p span:nth-child(6)::before {
+  border-left: 1px solid;
+  padding-left: 14px;
+  margin-left: 10px;
+}
+#footer .inner address.p span:nth-child(7)::before {
+  border-left: 1px solid;
+  padding-left: 14px;
+  margin-left: 10px;
+}
+#footer .inner address.p span a{
+  color: #888;
+}
+#footer .inner p.cotyright {
+
+}

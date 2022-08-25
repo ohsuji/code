@@ -1,0 +1,198 @@
+/* top */
+header {
+  padding-bottom: 30px;
+}
+header .inner { 
+  position: relative;
+  height: 100px;
+  display: flex;
+}
+header .inner h1 {
+  
+}
+header .inner h1 a { 
+  font-size: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  right: 50%;
+}
+header .inner h1 a img {
+}
+header .inner .menu {
+  display: flex;
+}
+header .inner .menu ul.ham {
+  position: absolute;
+  left: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  top: 0;
+}
+header .inner .menu ul.ham li {
+  
+}
+header .inner .menu ul.ham li a {
+  font-size: 0;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  display: flex;
+  width: 23px;
+  height: 12px;
+}
+header .inner .menu ul.ham li a::before{
+  content: "";
+  display: block;
+  width: 100%;
+  border-top: 2px solid;
+   transform: translateY(5px);
+}
+header .inner .menu ul.gnb {
+  position: absolute;
+  left: 80px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  top: 0;
+}
+header .inner .menu ul.gnb li {
+  
+}
+header .inner .menu ul.gnb li a {
+  
+}
+header .inner .menu ul.gnb li a:hover{
+  font-weight: 700;
+}
+header .inner .menu ul.info-gnb {
+  gap: 30px;
+  position: absolute;
+  right: 0px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  top: 0;
+}
+header .inner .menu ul.info-gnb li {
+  
+}
+header .inner .menu ul.info-gnb li a {
+  
+}
+header .inner .menu ul.info-gnb li a:hover {
+ font-weight: 700; 
+}
+/* 타이틀 */
+#title{
+}
+#title .inner {
+  height: 83vh;
+  position: relative;
+}
+#title .inner:nth-child(1) {
+  background-image: url(../img/title1.jpg);
+  background-size: cover;
+}
+#title .inner:nth-child(2) {
+  background-image: url(../img/title2.jpg);
+}
+#title .inner:nth-child(3) {
+  background-image: url(../img/title3.jpg);
+}
+#title .inner .titlep {
+  font-size: 25px;
+  color: white;
+  display: flex;
+  position: relative;
+  height: 20px;
+  top: 45%;
+  margin-left: 80px;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+  animation-name: h2up;
+}
+@keyframes h2up{
+  0%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(100%);
+    opacity: 0.4;
+  }
+}
+#title .inner p { 
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  top: 50%;
+  display: block;
+  margin-left: 80px;
+  height: 20px;
+  animation-name: pup;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+@keyframes pup{
+  0%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(100%);
+     opacity: 0;
+  }
+}
+#title .inner .pagination {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 750px;
+  height: 100px;
+  background: white;
+  padding: 10px 0;
+  align-items: center;
+}
+#title .inner .pagination .slid {
+  height: 65px;
+  position: relative;
+  color: #ccc;
+  width: 200px;
+  left: 25px;
+}
+#title .inner .pagination .slid:hover{
+  color: #333333;
+}
+#title .inner .pagination .slid:nth-child(1) {
+  border-right: 2px solid #ccc;
+  padding-right: 30px;
+}
+#title .inner .pagination .slid:nth-child(2){
+  border-right: 2px solid #ccc;
+}
+#title .inner .pagination .slid span{
+  color: #ccb089;
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+#title .inner .pagination strong{
+  line-height: 1.3;
+}
+

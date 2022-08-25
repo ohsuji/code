@@ -1,0 +1,54 @@
+.hide {
+  display: none;
+}
+.inner {
+  width: 95%;
+  margin: 0 auto;
+}
+.br{
+  display: block;
+}
+.p{
+  line-height: 1.5;
+}
+/* flex */
+.flex {
+  display: flex; 
+}
+.flexBetween{
+  justify-content: space-between;  
+}
+.flexAround{
+  justify-content: space-around;
+}
+.flexEvenly{
+  justify-content: space-evenly;  
+}
+.flexCenter{
+  justify-content: center;   
+}
+.flexColumn{
+  flex-direction: column;
+}
+.flexAlignCenter{
+  align-items: center;
+}
+.flexWrap{
+  flex-wrap: wrap;
+}
+
+/* 패딩 */
+.padding130{
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+/* 글꼴 */
+h2,h3,span,dt {
+  font-family: 'Noto Serif KR', serif;
+}
+
+p.h2,button,strong {
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+}
